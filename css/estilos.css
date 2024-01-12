@@ -1,0 +1,26 @@
+body {
+	background:url(../imagenes/background.jpg);
+	background-attachment:fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+body {
+	margin:50px
+}
+div {
+	background-color:rgba(146,198,251,.7);
+	-webkit-border-radius: 10px;
+	position:relative;
+	float:left;
+}
+
+.caja_principal {
+	width:900px;
+	padding:20px;
+}
+.sidebar {
+	float:right;
+	width:130px;
+	padding:20px;
+}

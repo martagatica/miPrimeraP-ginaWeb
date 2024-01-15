@@ -1,0 +1,19 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14pt;
+    margin:0;
+    padding:0
+}
+
+
+.columna1 ,.columna2 ,.columna3{
+    display: inline-block;
+}
+
+.columna1 ,.columna3{
+    width: 25%;
+}
+
+.columna2{
+    width: 50%;
+}

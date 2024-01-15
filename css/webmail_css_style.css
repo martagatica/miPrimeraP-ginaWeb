@@ -1,0 +1,92 @@
+
+form {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding:15px;
+    margin:auto
+}
+
+input [type="text"],
+input [type="password"] {
+    width: 100%;
+    padding:10px;
+    margin:8px 0px;
+}
+
+.footer {
+    font-size: 9px;
+}
+
+.logo {
+    height:100px;
+    width:auto;
+    display:block;
+    margin:auto;
+    padding:100px;
+    margin-bottom: 0px;
+}
+
+input[type="submit"] {
+    width: 280px;
+    height:35px;
+    margin-bottom:0px;
+    background:#37beff;
+    color:white;
+    border:none;
+    display:block;
+    margin:auto;
+    border-radius:3px;
+    padding:10px;
+}
+
+input[type="submit"]:hover{
+    background:#20b6ff;
+    color:white;
+}
+
+.profile, .password {
+    height:35px;
+}
+
+.profile_line, .password_line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile_line {
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.password_line {
+    margin-bottom: 30px;
+    margin-top: 3px;
+}
+
+.profile_img, .input_email {
+    display: inline-block;
+    vertical-align: top;
+}
+
+input[type="email"],
+input[type="password"] {
+    height:35px;
+    width:250px;
+    background: #e8f0fe;
+}
+
+input[type="email"],
+input[type="password"] :hover {
+    border:1px solid #37beff;
+}
+
+
+.password_img, .input_password {
+    display: inline-block;
+    vertical-align: top;
+}
+
+input::placeholder {
+    color:#bdbdbd;
+}
